@@ -1,6 +1,24 @@
 .hero {
-  padding: 142px 20px 0;
-  background-color: #666;
+  padding: 0;
+  // background-color: #666;
+}
+
+.hero .container {
+  height: 533px;
+  padding-top: 142px;
+  
+  background-image: url(../images/home/hero/m/showcase.jpg);
+  background-repeat: no-repeat;
+  // -webkit-image-set(
+  //   url(../images/home/hero/m/showcase.jpg) 1x
+  // );
+  // background-image: linear-gradient(
+  //       rgba(47, 48, 58, 0.4),
+  //       rgba(47, 48, 58, 0.4)
+  //     ),
+  //     -webkit-image-set(url(../images/tablet_w/img.webp) 1x, url(../images/tablet_w/img@2x.webp)
+  //           2x, url(../images/tablet/img.jpg) 1x, url(../images/tablet/img@2x.jpg)
+  //           2x);
 }
 
 .hero-title {
@@ -10,10 +28,8 @@
 }
 
 .hero-tagline {
-  margin-top: 20px 0 24px;
+  margin: 20px 0 24px;
   font-size: 22px;
   line-height: calc(37 / 22);
   color: var(--secondary-text-color-dark-bg);
 }
-
-
