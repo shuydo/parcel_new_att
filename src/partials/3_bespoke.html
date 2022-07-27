@@ -47,12 +47,24 @@
     />
     <img src="./images/mobile/img1.jpg" alt="Игорь" />
   </picture> -->
-<div class="wrapper">
+
+  <div class="wrapper">
   <picture>
     <source
-      media="(min-width: 768px) and (max-width: 1359px)"
+      media="(min-width: 1360px)"
+      srcset="./images/home/dt/people.jpg 1x, ./images/home/dt/people@2x.jpg 2x"
+    />
+
+    <source
+      media="(min-width: 768px)"
       srcset="./images/home/t/people.jpg 1x, ./images/home/t/people@2x.jpg 2x"
     />
+
+    <source
+      media="(min-width: 320px)"
+      srcset="./images/home/m/people.jpg 1x, ./images/home/m/people@2x.jpg 2x"
+    />
+
     <img src="./images/home/m/people.jpg" alt="people" />
   </picture>
   <section class="bespoke">

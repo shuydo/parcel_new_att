@@ -1,24 +1,26 @@
 .blog-wrapper {
-  width: 768px;
-  display: flex;
-  margin: 0 auto;
+  width: 1360px;    // 768
+  // margin: 0 auto;
+  // display: flex;
 }
 // =============================
 .blog {
-  width: 400px;
+  width: 690px; //400px;
   // order: 1;
 }
 // =============================
-.blog-wrapper picture {
-  order: 2;
-} // .blog {
+// .blog-wrapper picture {
+  // order: 2;
+// } 
+
+// .blog {
 //   background-color: var(--blog-bg);
 //   color: var(--text-color-dark-bg);
 // }
 .blog .container {
   // text-align: start;
-  width: 400px;
-  padding: 0 53px 0 32px;
+  width: 690px; //400px;
+  // padding: 0 53px 0 32px;
 }
 // .blog .overtitle {
 //   margin-bottom: 8px;

@@ -1,15 +1,15 @@
 .container{
-  width: 768px;
+  width: 1360px;
 }
 @import "helpers/presets";
 
-@import 'helpers/comp';
+  // @import 'helpers/comp';
 
 @import '1_header';
 @import '2_hero';
 @import '3_bespoke';
 @import '4_cases';
 @import '6_blog';
-@import '7_team';
+  // @import '7_team';
 @import '9_callback';
-// @import 'footer';
+  // @import 'footer';
