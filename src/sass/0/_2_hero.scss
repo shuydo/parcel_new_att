@@ -1,0 +1,19 @@
+.hero {
+  padding: 142px 20px 0;
+  background-color: #666;
+}
+
+.hero-title {
+  font-size: 52px;
+  line-height: calc(66 / 52);
+  color: var(--secondary-text-color-dark-bg);
+}
+
+.hero-tagline {
+  margin-top: 20px 0 24px;
+  font-size: 22px;
+  line-height: calc(37 / 22);
+  color: var(--secondary-text-color-dark-bg);
+}
+
+

@@ -1,2 +1,5 @@
-@import './common';
-@import './example';
+@import "0/0_base"; 
+
+// @media screen and (min-width:  768px) {@import "2_768/_bp_768";}
+
+// @media screen and (min-width: 1360px) {@import "3_1360/_bp_1360";}

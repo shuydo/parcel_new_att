@@ -1,0 +1,15 @@
+.blog {
+  background-color: var(--blog-bg);
+  color: var(--text-color-dark-bg);
+}
+.blog .container {
+  text-align: start;
+}
+.blog .overtitle {
+  margin-bottom: 8px;
+}
+
+.blog .btn {
+  background-color: var(--blog-bg);
+  border: 1px solid var(--text-color-dark-bg);
+}
