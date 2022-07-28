@@ -18,11 +18,15 @@
   border: none;
 }
 
-.callback-name{
+.callback-name {
   margin-bottom: 32px;
 }
 
-.callback .btn{
+.callback .btn {
   width: 100%;
-  line-height: calc(22/16);
+  line-height: calc(22 / 16);
+}
+
+.callback .btn:hover {
+  opacity: 0.8;
 }

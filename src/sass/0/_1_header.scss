@@ -1,10 +1,29 @@
 header {
-  height: 120px;
-  padding: 20px 23px 0;
-  text-align: center;
-  background-color: #555;
+  position: fixed;
+  width: 100%;
 }
+
+header .container {
+  height: 120px;
+  padding-top: 20px;
+  background-color: #333;
+  opacity: 0.8;
+}
+
 .logo {
+  display: flex;
+  align-items: center;
+
+  transition: transform 250ms;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.logo-text {
+  padding-left: 6px;
+
   font-size: 32px;
   line-height: calc(42 / 32);
 }
@@ -18,8 +37,12 @@ header {
   margin-top: 12px;
   display: flex;
   justify-content: space-between;
-  
+
   font-size: 16px;
   line-height: calc(26 / 16);
   color: var(--text-color-dark-bg);
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid var(--accent-color);
 }

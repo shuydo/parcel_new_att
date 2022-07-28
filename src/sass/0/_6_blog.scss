@@ -13,3 +13,8 @@
   background-color: var(--blog-bg);
   border: 1px solid var(--text-color-dark-bg);
 }
+
+.blog .btn:hover {
+  color: var(--blog-bg);
+  background-color: var(--text-color-dark-bg);
+}

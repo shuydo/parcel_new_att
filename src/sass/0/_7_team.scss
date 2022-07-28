@@ -8,8 +8,18 @@
 .team .text {
   margin: 20px 0;
 }
-.team-list li:not(:last-child){
+
+.team-list li:not(:last-child) {
   margin-bottom: 20px;
+}
+
+.team img {
+  transition: transform 250ms;
+}
+
+.team img:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 1px 10px var(--accent-color);
 }
 
 .team .name {

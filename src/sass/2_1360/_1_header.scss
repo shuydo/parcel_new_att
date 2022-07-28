@@ -1,7 +1,10 @@
-header {
-  height: 70px;
-  display: flex;
-  justify-content: space-between;
+// header {
+//   height: 70px;
+//   display: flex;
+//   justify-content: space-between;
+// }
+header .container{
+  padding-top: 12px;
 }
 
 // .logo {
@@ -20,14 +23,14 @@ header {
 //   color: var(--text-color-dark-bg);
 // }
 
-.nav {
+// .nav {
   //   margin-top: 12px;
   // display: block;
-  justify-content: right;
-  margin-left: 73px;
+  // justify-content: right;
+  // margin-left: 73px;
   // width: 300px;
-}
+// }
 
-.nav li:not(:first-child) {
-  margin-left: 20px;
-}
+// .nav li:not(:first-child) {
+  // margin-left: 20px;
+// }

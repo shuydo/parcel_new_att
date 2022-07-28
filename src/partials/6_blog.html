@@ -1,30 +1,22 @@
 <div class="blog-wrapper">
-  <picture>
-    <source
-      media="(min-width: 1360px)"
-      srcset="
-        ./images/home/dt/blog.jpg    1x,
-        ./images/home/dt/blog@2x.jpg 2x
-      "
-    />
-    <source
-      media="(min-width: 768px)"
-      srcset="
-        ./images/home/t/blog.jpg    1x,
-        ./images/home/t/blog@2x.jpg 2x
-      "
-    />
-    <source
-      media="(min-width: 320px)"
-      srcset="
-        ./images/home/m/blog.jpg    1x,
-        ./images/home/m/blog@2x.jpg 2x
-      "
-    />
-    <img src="./images/home/m/blog.jpg" alt="blog" />
-  </picture>
-
-  <section class="blog">
+  <div class="pic-container">
+    <picture>
+      <source
+        media="(min-width: 1360px)"
+        srcset="./images/home/dt/blog.jpg 1x, ./images/home/dt/blog@2x.jpg 2x"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="./images/home/t/blog.jpg 1x, ./images/home/t/blog@2x.jpg 2x"
+      />
+      <source
+        media="(min-width: 320px)"
+        srcset="./images/home/m/blog.jpg 1x, ./images/home/m/blog@2x.jpg 2x"
+      />
+      <img src="./images/home/m/blog.jpg" alt="blog" />
+    </picture>
+  </div>
+  <section class="blog" id="blog">
     <div class="container">
       <h3 class="overtitle">April 16 2020</h3>
       <h2 class="title">Blog Post One</h2>

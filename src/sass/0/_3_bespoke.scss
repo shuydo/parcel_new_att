@@ -16,3 +16,8 @@
 .bespoke .btn {
   border: 1px solid var(--text-color-dark-bg);
 }
+
+.bespoke .btn:hover {
+  color: var(--accent-color);
+  background-color: var(--text-color-dark-bg);
+}

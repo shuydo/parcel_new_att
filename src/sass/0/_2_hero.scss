@@ -1,14 +1,13 @@
 .hero {
   padding: 0;
-  // background-color: #666;
 }
 
 .hero .container {
   height: 533px;
   padding-top: 142px;
-  // background-position: center top;
-  
-  // background-image: url(../images/home/hero/m/showcase.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -17,7 +16,7 @@
   }
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../images/home/hero/m/showcase.jpg);
-  background-repeat: no-repeat;
+
   // -webkit-image-set(
   //   url(../images/home/hero/m/showcase.jpg) 1x
   // );
@@ -41,4 +40,12 @@
   font-size: 22px;
   line-height: calc(37 / 22);
   color: var(--secondary-text-color-dark-bg);
+}
+
+.sign-more {
+  display: none;
+}
+
+.hero .btn:hover {
+  opacity: 0.8;
 }
