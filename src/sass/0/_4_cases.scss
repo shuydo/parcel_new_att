@@ -17,3 +17,8 @@
 .cases-gallery li:not(:last-child) {
   margin-bottom: 8px;
 }
+
+.cases-gallery-item:hover{
+  // outline:2px solid red;
+  opacity: .8;
+}
