@@ -4,6 +4,7 @@
 // }
 .hero .container {
   height: 1024px;
+  padding-top: 407px;
   // background-image: url(../images/home/hero/t/showcase.jpg);
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -27,6 +28,6 @@
   // line-height: calc(37 / 22);
   // color: var(--secondary-text-color-dark-bg);
 }
-.sign-more{
+.sign-more {
   display: inline;
 }
