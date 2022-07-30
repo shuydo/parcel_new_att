@@ -1,0 +1,36 @@
+.callback-wrapper {
+  width: 768px;
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+// .callback {
+//   background-color: var(--callback-bg);
+// }
+.callback .container {
+  width: 400px;
+  padding: 0 32px;
+  //   text-align: start;
+}
+
+.callback-list {
+  margin: 32px 0 40px;
+}
+
+.callback input {
+  //   width: 100%;
+  font-size: 18px;
+  line-height: calc(23 / 18);
+  //   padding: 8px 0 8px 8px;
+  //   border: none;
+}
+
+// .callback-name{
+//   margin-bottom: 32px;
+// }
+
+.callback .btn {
+  //   width: 100%;
+  font-size: 18px;
+  line-height: calc(25 / 18);
+}

@@ -1,0 +1,23 @@
+.bespoke {
+  background-color: var(--accent-color);
+  color: var(--text-color-dark-bg);
+}
+.bespoke .container {
+  text-align: start;
+}
+.bespoke h3 {
+  margin-bottom: 8px;
+}
+
+// .bespoke .text {
+//   letter-spacing: -0.006em;
+// }
+
+.bespoke .btn {
+  border: 1px solid var(--text-color-dark-bg);
+}
+
+.bespoke .btn:hover {
+  color: var(--accent-color);
+  background-color: var(--text-color-dark-bg);
+}

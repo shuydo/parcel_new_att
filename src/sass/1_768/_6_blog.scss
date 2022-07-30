@@ -1,0 +1,32 @@
+.blog-wrapper {
+  width: 768px;
+  display: flex;
+  margin: 0 auto;
+}
+// =============================
+.blog {
+  width: 400px;
+  order: -1;
+}
+// =============================
+// .blog-wrapper picture {
+// .blog-wrapper .pic-container {
+  // order: 2;
+// } 
+// .blog {
+//   background-color: var(--blog-bg);
+//   color: var(--text-color-dark-bg);
+// }
+.blog .container {
+  // text-align: start;
+  width: 400px;
+  padding: 0 53px 0 32px;
+}
+// .blog .overtitle {
+//   margin-bottom: 8px;
+// }
+
+// .blog .btn {
+//   background-color: var(--blog-bg);
+//   border: 1px solid var(--text-color-dark-bg);
+// }

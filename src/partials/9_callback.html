@@ -1,0 +1,58 @@
+<div class="callback-wrapper">
+  <div class="pic-container">
+    <picture>
+      <source
+        media="(min-width: 1360px)"
+        srcset="
+          ./images/home/dt/contact.jpg    1x,
+          ./images/home/dt/contact@2x.jpg 2x
+        "
+      />
+
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./images/home/t/contact.jpg    1x,
+          ./images/home/t/contact@2x.jpg 2x
+        "
+      />
+
+      <source
+        media="(min-width: 320px)"
+        srcset="
+          ./images/home/m/contact.jpg    1x,
+          ./images/home/m/contact@2x.jpg 2x
+        "
+      />
+
+      <img src="./images/home/m/contact.jpg" alt="contact us" />
+    </picture>
+  </div>
+
+  <section class="callback" id="callback">
+    <div class="container">
+      <h2 class="title">Request Callback</h2>
+      <form class="callback-form" netlify>
+        <ul class="callback-list list">
+          <li class="callback-item">
+            <input
+              type="text"
+              class="callback-name"
+              name="name"
+              placeholder="Enter your name"
+            />
+          </li>
+          <li class="callback-item">
+            <input
+              type="email"
+              class="callback-email"
+              name="email"
+              placeholder="Enter email*"
+            />
+          </li>
+        </ul>
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+</div>
