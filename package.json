@@ -5,7 +5,9 @@
   "homepage": "https://goitacademy.github.io/parcel-project-template",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url ./",
+    "predeploy": "npm run build -- --public-url /parcel_new_att/",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "jquery": "^3.6.0",
     "lightbox2": "^2.11.3",
     "modern-normalize": "^1.1.0"
