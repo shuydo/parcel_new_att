@@ -3,16 +3,47 @@
     <picture>
       <source
         media="(min-width: 1360px)"
+        type="image/webp"
+        srcset="
+          ./images/webp/home/dt/blog.webp    1x,
+          ./images/webp/home/dt/blog@2x.webp 2x
+        "
+      />
+
+      <source
+        media="(min-width: 768px)"
+        type="image/webp"
+        srcset="
+          ./images/webp/home/t/blog.webp    1x,
+          ./images/webp/home/t/blog@2x.webp 2x
+        "
+      />
+
+      <source
+        media="(min-width: 320px)"
+        type="image/webp"
+        srcset="
+          ./images/webp/home/m/blog.webp    1x,
+          ./images/webp/home/m/blog@2x.webp 2x
+        "
+      />
+
+
+      <source
+        media="(min-width: 1360px)"
         srcset="./images/home/dt/blog.jpg 1x, ./images/home/dt/blog@2x.jpg 2x"
       />
+
       <source
         media="(min-width: 768px)"
         srcset="./images/home/t/blog.jpg 1x, ./images/home/t/blog@2x.jpg 2x"
       />
+      
       <source
         media="(min-width: 320px)"
         srcset="./images/home/m/blog.jpg 1x, ./images/home/m/blog@2x.jpg 2x"
       />
+
       <img src="./images/home/m/blog.jpg" alt="blog" />
     </picture>
   </div>
