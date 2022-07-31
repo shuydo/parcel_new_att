@@ -38,9 +38,9 @@ lightbox.option({
 });
 
 const sendHandler = evt => {
-  evt.preventDefault();
-
   if (email.value === '') {
+    evt.preventDefault();
+
     svg.classList.remove('visible');
     err_mess.classList.remove('visible');
   } else {
@@ -49,4 +49,5 @@ const sendHandler = evt => {
   }
 };
 
+// const send_btn = document.querySelector('.send_btn');
 send_btn.addEventListener('click', sendHandler);
