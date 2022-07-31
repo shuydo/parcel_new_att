@@ -7,20 +7,19 @@ header {
 
 header .container {
   height: 120px;
-  padding: 20px 22px 0;
+  padding: 20px 16px 0;
 
   transition: opacity 500ms linear;
-} // background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3));
+}
 
 .isVeiled {
-  // background-color: #555;
-  // opacity: 0.;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
-} // transform: translateY(-120);  // opacity: 0.1;
+}
 
 .logo {
   display: flex;
   align-items: center;
+  justify-content: center;
 
   transition: transform 250ms;
 }
@@ -35,6 +34,7 @@ header .container {
   font-size: 32px;
   line-height: calc(42 / 32);
 }
+
 .part1 {
   color: var(--accent-color);
 }
@@ -44,11 +44,16 @@ header .container {
 .nav {
   margin-top: 12px;
   display: flex;
-  justify-content: space-between;
-
   font-size: 16px;
   line-height: calc(26 / 16);
   color: var(--text-color-dark-bg);
+}
+
+.nav-item {
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 8px;
+  // outline: 1px solid red;
 }
 
 .nav-item:hover {
