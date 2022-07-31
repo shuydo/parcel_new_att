@@ -31,8 +31,22 @@ window.onload = () => {
 lightbox.option({
   alwaysShowNavOnTouchDevices: true, // albumLabel: "Картинка %1 из %2",
   disableScrolling: true, // positionFromTop:0,
-  fadeDuration: 0,// fitImagesInViewport: false,
-  imageFadeDuration: 0,// maxWidth: 1000,
+  fadeDuration: 0, // fitImagesInViewport: false,
+  imageFadeDuration: 0, // maxWidth: 1000,
   resizeDuration: 500, // maxHeight: 700,
   wrapAround: true, // showImageNumberLabel:false
 });
+
+const sendHandler = evt => {
+  evt.preventDefault();
+
+  if (email.value === '') {
+    svg.classList.remove('visible');
+    err_mess.classList.remove('visible');
+  } else {
+    svg.classList.add('visible');
+    err_mess.classList.add('visible');
+  }
+};
+
+send_btn.addEventListener('click', sendHandler);

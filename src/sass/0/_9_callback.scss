@@ -1,13 +1,14 @@
 .callback {
   background-color: var(--callback-bg);
 }
+
 .callback .container {
   padding: 0 20px;
   text-align: start;
 }
 
 .callback-list {
-  margin: 41px 0 47px;
+  margin: 32px 0 calc(40px - 24px); //41px 0 47px;
 }
 
 .callback input {
@@ -18,7 +19,7 @@
   border: none;
 }
 
-.callback-name {
+.callback-list li:first-child {
   margin-bottom: 32px;
 }
 
@@ -29,4 +30,20 @@
 
 .callback .btn:hover {
   opacity: 0.9;
+}
+
+.error {
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  color: red;
+}
+
+.error svg {
+  fill: #eb5757;
+}
+
+.visible {
+  fill: var(--callback-bg);
+  color: var(--callback-bg);
 }

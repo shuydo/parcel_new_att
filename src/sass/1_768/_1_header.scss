@@ -1,33 +1,23 @@
 header .container {
+  padding: 0 22px;
   height: 70px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-// .logo {
-//   font-size: 32px;
-//   line-height: calc(42 / 32);
-// }
-// .part1 {
-//   color: var(--accent-color);
-// }
-// .part2 {
-//   color: var(--text-color-dark-bg);
-// }
-// .nav {
-//   font-size: 16px;
-//   line-height: calc(26 / 16);
-//   color: var(--text-color-dark-bg);
-// }
+.logo{
+  margin-left: 10px;
+}
 
 .nav {
-  //   margin-top: 12px;
-  // display: block;
-  justify-content: right;
-  margin-left: 73px;
-  // width: 300px;
+  margin-top: 0;
+
+  font-size: 18px;
+  line-height: calc(28 / 18);
 }
 
-.nav li:not(:first-child) {
-  margin-left: 20px;
+.nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
 }
