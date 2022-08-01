@@ -1,17 +1,17 @@
-.callback {
-  background-color: var(--callback-bg);
+.contact {
+  background-color: var(--contact-bg);
 }
 
-.callback .container {
+.contact .container {
   padding: 0 20px;
   text-align: start;
 }
 
-.callback-list {
+.contact-list {
   margin: 32px 0 calc(40px - 24px); //41px 0 47px;
 }
 
-.callback input {
+.contact input {
   width: 100%;
   font-size: 16px;
   line-height: calc(23 / 16);
@@ -19,16 +19,16 @@
   border: none;
 }
 
-.callback-list li:first-child {
+.contact-list li:first-child {
   margin-bottom: 32px;
 }
 
-.callback .btn {
+.contact .btn {
   width: 100%;
   line-height: calc(22 / 16);
 }
 
-.callback .btn:hover {
+.contact .btn:hover {
   opacity: 0.9;
 }
 
@@ -44,6 +44,6 @@
 }
 
 .invisible {
-  fill: var(--callback-bg);
-  color: var(--callback-bg);
+  fill: var(--contact-bg);
+  color: var(--contact-bg);
 }
