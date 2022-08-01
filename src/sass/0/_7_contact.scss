@@ -43,7 +43,6 @@
   fill: #eb5757;
 }
 
-.invisible {
-  fill: var(--contact-bg);
-  color: var(--contact-bg);
+.hide {
+  opacity: 0;
 }

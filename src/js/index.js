@@ -24,13 +24,8 @@ lightbox.option({
 const sendHandler = evt => {
   if (email.value === '') {
     evt.preventDefault();
-
-    svg.classList.remove('invisible');
-    err_mess.classList.remove('invisible');
-  } else {
-    svg.classList.add('invisible');
-    err_mess.classList.add('invisible');
-  }
+    error.classList.remove('hide');
+  } else error.classList.add('hide');
 };
 
 send_btn.addEventListener('click', sendHandler);
