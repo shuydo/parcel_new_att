@@ -13,12 +13,11 @@ window.onload = () => {
 };
 
 lightbox.option({
-  alwaysShowNavOnTouchDevices: true, // albumLabel: "Картинка %1 из %2",
-  disableScrolling: true, // positionFromTop:0,
-  // fadeDuration: 0, // fitImagesInViewport: false,
-  // imageFadeDuration: 0, // maxWidth: 1000,
-  resizeDuration: 500, // maxHeight: 700,
-  wrapAround: true, // showImageNumberLabel:false
+  alwaysShowNavOnTouchDevices: true,
+  disableScrolling: true, // fitImagesInViewport: false,
+  imageFadeDuration: 0, //maxWidth: 1000,
+  resizeDuration: 500, //maxHeight: 700, positionFromTop:0, fadeDuration: 0,
+  wrapAround: true, //showImageNumberLabel:false,albumLabel:"Картинка %1 из %2"
 });
 
 const sendHandler = evt => {
