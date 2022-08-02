@@ -1,8 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: var(--text-color);
   user-select: none;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
 }
 
 h1,
@@ -24,7 +32,7 @@ section {
   padding: 40px 0;
 }
 
-.pic-container  {
+.pic-container {
   width: 320px;
   margin: 0 auto;
 }
