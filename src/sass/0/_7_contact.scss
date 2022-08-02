@@ -29,7 +29,7 @@
 }
 
 .contact .btn:hover {
-  opacity: 0.9;
+  opacity: var(--btn-hover-opacity);
 }
 
 .error {

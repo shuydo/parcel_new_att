@@ -2,18 +2,16 @@
 //   padding: 142px 20px 0;
 //   background-color: #666;
 // }
+
 .hero .container {
   height: 1024px;
   padding-top: 407px;
-  // background-image: url(../images/home/hero/t/showcase.jpg);
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(../images/home/hero/t/showcase@2x.jpg);
+    background-image: var(--mask), url(../images/home/hero/t/showcase@2x.jpg);
   }
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../images/home/hero/t/showcase.jpg);
+  background-image: var(--mask), url(../images/home/hero/t/showcase.jpg);
 }
 
 .hero-title {
@@ -28,6 +26,7 @@
   // line-height: calc(37 / 22);
   // color: var(--secondary-text-color-dark-bg);
 }
+
 .sign-more {
   display: inline;
 }
