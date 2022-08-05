@@ -8,12 +8,21 @@
 
   background-repeat: no-repeat;
   background-size: cover;
-  @media screen and (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    background-image: var(--mask), url(../images/home/hero/m/showcase@2x.jpg);
-  }
-  background-image: var(--mask), url(../images/home/hero/m/showcase.jpg);
+  // @media screen and (min-device-pixel-ratio: 2),
+  //   (min-resolution: 192dpi),
+  //   (min-resolution: 2dppx) {
+  //   background-image: var(--mask), url(../images/home/hero/m/showcase@2x.jpg);
+  // }
+  // background-image: linear-gradient(
+  //       rgba(47, 48, 58, 0.4),
+  //       rgba(47, 48, 58, 0.4)
+  //     ),
+  //     -webkit-image-set(url(../images/mobile_w/img.webp) 1x, url(../images/mobile_w/img@2x.webp)
+  //           2x, url(../images/mobile/img.jpg) 1x, url(../images/mobile/img@2x.jpg)
+  //           2x);
+  background-image: -webkit-image-set(url(../images/home/hero/m/showcase.jpg) 1x);
+  // background-image: -webkit-image-set(url(../images/webp/home/hero/m/showcase.webp) 1x);
+  // background-image: var(--mask), url(../images/home/hero/m/showcase.jpg);
 } // -webkit-image-set(url(../images/home/hero/m/showcase.jpg) 1x);
 
 .hero-title {
