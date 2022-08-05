@@ -9,22 +9,10 @@
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(../images/home/hero/dt/showcase@2x.jpg);
+    background-image: var(--mask), url(../images/home/hero/dt/showcase@2x.jpg);
   }
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../images/home/hero/dt/showcase.jpg);
-    
-  // background-image: -webkit-image-set(
-  //   url(../images/home/hero/dt/showcase.jpg) 1x,
-  //   url(../images/home/hero/dt/showcase@2x.jpg) 2x
-  // );
+  background-image: var(--mask), url(../images/home/hero/dt/showcase.jpg);
 }
-// -webkit-image-set(url(../images/tablet_w/img.webp) 1x,
-//                  url(../images/tablet_w/img@2x.webp)2x,
-//  url(../images/tablet/img.jpg) 1x,
-// url(../images/tablet/img@2x.jpg)
-//             2x);
 
 .hero-title {
   font-size: 55px;

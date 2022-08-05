@@ -1,0 +1,56 @@
+.team .overtitle {
+  margin-bottom: 20px;
+}
+.team .container {
+  padding: 0 20px;
+}
+
+.team .text {
+  margin: 20px 0;
+}
+
+.team-list > li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.team img {
+  transition: transform var(--delta-t);
+}
+
+.thumb {
+  height: 186px;
+  overflow: hidden;
+  transition: all var(--delta-t);
+}
+
+.slide {
+  background-image: var(--team-mask);
+  display: flex;
+  align-items: center;
+  height: 186px;
+  transition: transform var(--delta-t);
+}
+
+.team-item:hover .slide {
+  transform: translateY(-100%);
+}
+
+.team-item:hover .thumb {
+  box-shadow: 2px 2px 12px 2px var(--half-hero-mask);
+  transform: scale(1.025);
+}
+
+.team .social-list li:hover svg {
+  opacity: var(--soc-transparency);
+}
+
+.team .name {
+  margin: 16px 0 12px;
+  font-size: 23px;
+  line-height: calc(29 / 23);
+}
+
+.team .position {
+  font-size: 16px;
+  line-height: calc(26 / 16);
+}

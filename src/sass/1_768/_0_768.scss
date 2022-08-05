@@ -1,7 +1,7 @@
+.container { width: 768px }
 
-@import 'helpers/var';
 @import 'helpers/presets';
-@import 'helpers/utils';
+
 @import 'helpers/comp';
 
 @import '1_header';
@@ -11,4 +11,3 @@
 @import '5_blog';
 @import '6_team';
 @import '7_contact';
-@import 'footer';

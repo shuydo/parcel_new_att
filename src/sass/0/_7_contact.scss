@@ -1,0 +1,48 @@
+.contact {
+  background-color: var(--contact-bg);
+}
+
+.contact .container {
+  padding: 0 20px;
+  text-align: start;
+}
+
+.contact-list {
+  margin: 32px 0 calc(40px - 24px); //41px 0 47px;
+}
+
+.contact input {
+  width: 100%;
+  font-size: 16px;
+  line-height: calc(23 / 16);
+  padding: 8px 0 8px 8px;
+  border: none;
+}
+
+.contact-list li:first-child {
+  margin-bottom: 32px;
+}
+
+.contact .btn {
+  width: 100%;
+  line-height: calc(22 / 16);
+}
+
+.contact .btn:hover {
+  opacity: var(--btn-hover-opacity);
+}
+
+.error {
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  color: red;
+}
+
+.error svg {
+  fill: #eb5757;
+}
+
+.hide {
+  opacity: 0;
+}

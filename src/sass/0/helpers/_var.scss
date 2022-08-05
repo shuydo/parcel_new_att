@@ -7,6 +7,22 @@
 
   --accent-color: #28a745;
   --blog-bg: #0284d0;
-  --callback-bg: #f4f4f4;
+  --contact-bg: #f4f4f4;
   --footer-bg: #333;
+
+  --btn-hover-opacity: 0.9;
+
+  --scroll-bar-shadow: inset 0 0 6px rgba(0, 255, 0, 0.3);
+
+  --hero-transparency: 0.4;
+  --half-hero-mask: rgba(0, 0, 0, var(--hero-transparency));
+  --mask: linear-gradient(var(--half-hero-mask), var(--half-hero-mask));
+
+  --team-transparency: 0.6;
+  --half-team-mask: rgba(0, 0, 0, var(--team-transparency));
+  --team-mask: linear-gradient(var(--half-team-mask), var(--half-team-mask));
+
+  --soc-transparency: 0.8;
+
+  --delta-t: 250ms;
 }

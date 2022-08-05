@@ -1,0 +1,21 @@
+.about {
+  background-color: var(--accent-color);
+  color: var(--text-color-dark-bg);
+}
+
+.about .container {
+  text-align: start;
+}
+
+.about h3 {
+  margin-bottom: 8px;
+}
+
+.about .btn {
+  border: 1px solid var(--text-color-dark-bg);
+}
+
+.about .btn:hover {
+  color: var(--accent-color);
+  background-color: var(--text-color-dark-bg);
+}

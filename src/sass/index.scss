@@ -1,5 +1,7 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
 @import "0/0_base"; 
 
-@media screen and (min-width:  768px) {@import "1_768/0_bp_768";} 
+@media screen and (min-width:  768px) {@import "1_768/0_768";} 
 
-@media screen and (min-width: 1360px) {@import "2_1360/0_bp_1360";}
+@media screen and (min-width: 1360px) {@import "2_1360/0_1360";}
